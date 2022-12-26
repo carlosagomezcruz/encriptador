@@ -1,0 +1,283 @@
+body {
+    background: #F3F5FC;
+}
+
+textarea{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #0A3871;
+}
+
+textarea::placeholder{
+    color: #0A3871;
+}
+
+.caja1{
+    display: inline-block;
+    vertical-align: top;
+    width: 63%;
+    height: 625px;
+ 
+}
+
+.logo-caja1{
+    margin: 2%;
+}
+.textocaja1{
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    position: relative;
+    resize: none;
+    border: white;
+    top: 12%;
+    left: 5%;
+    width: 45%;
+    height: 10%;
+    
+}
+
+.textocaja1:focus{
+    outline: white;
+}
+
+.box-button-caja1{
+    position: relative;
+    top: 55%;
+    left: 0%;
+    padding: 4%;
+}
+
+.box-button-caja1 .buttonencrypt,.buttondesencrypt{
+    margin: 2%;
+}
+
+.buttonencrypt:hover{
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+
+}
+.alerta{
+    position: relative;
+    top: 62%;
+    left: 0%;
+    margin: 0 0 0 7%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 150%;
+    color: #495057;
+}
+
+.alerta::before{
+    content: "⚠";
+
+}
+
+/* Estilos caja 2 */
+
+.caja2{
+    display: inline-block;
+    width: 36%;
+    height: 625px;
+}
+
+.box1-caja2{
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    background: #FFFFFF;
+    display: inline-block;
+    position: relative;
+    width: 60%;
+    height: 93%;
+    margin: 4% 0 0 21%;
+
+}
+.button-textarea-box1-caja2{
+    position: relative;
+    width: 80%;
+    height: 93%;
+    margin: 4% 0 0 9%;
+
+}
+
+.textocaja2{
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    position: relative;
+    resize: none;
+    border: none;
+    width: 92%;
+    height: 69%;
+    margin: 4% 0 0 3%;
+}
+
+.textocaja2:focus{
+    outline: white;
+}
+
+.buttoncopy{
+    position: relative;
+    width: 90%;
+    height: 8%;
+    top: 73px;
+    left: 5%;
+}
+
+.info-img-caja2{
+    position: relative;
+    top: 10%;
+}
+
+p{
+    padding: 1px;
+    margin: 10px;
+}
+
+.p1-caja2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #343A40;
+}
+.p2-caja2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #495057;
+    
+}
+
+.muneco{
+    width: 96%;
+}
+
+.rodapie{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    margin: 0px;
+}
+  
+  /* On screens that are 992px or less, set the background color to blue */
+@media screen and (min-width: 481px) and (max-width: 980px) {
+
+    .caja1{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .logo-caja1{
+        margin: 5% 3%;
+    }
+    
+    .textocaja1{
+        width: 80%;
+        margin-top: 10%;
+        margin-left: 3%;
+    }
+
+    .alerta{
+        margin-top: 50%;
+    }
+
+    .box-button-caja1{
+        padding: 2%;
+    }
+
+    .box-button-caja1 .buttonencrypt, .buttondesencrypt{
+        margin: 0% 0 0 4%;
+        width: 44%        
+    }
+
+    .caja2{
+        width: 100%;
+        height: auto;
+    }
+
+    .textocaja2{
+        padding-bottom: 70%;
+    }
+
+    .buttoncopy{
+        top: 0%;
+    }
+
+    .box1-caja2{
+        width: 90%;
+        height: auto;
+        margin: 0% 5%;
+        padding-bottom: 5%;
+    }
+    
+
+    .info-img-caja2{
+        margin-top: 6%;
+    }
+
+    .p1-caja2, .p2-caja2 {
+        text-align: center;
+        position: relative;
+        padding-top: 2%
+    }
+
+    .muneco{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 480px) { 
+
+    .caja1{
+        width: 100% ;
+        height: auto;
+    }
+    .logo-caja1{
+        margin: 5% 0%;
+    }
+    .textocaja1{
+        display: block;
+        width: 90%;
+    }
+    .alerta{
+        padding: 39% 0 0px 3%;
+
+    }
+    .box-button-caja1 .buttonencrypt,.buttondesencrypt{
+        margin: 2% 8%;
+    }
+    
+    .caja2{
+        width: 100%;
+        height: auto;
+    }
+
+    .box1-caja2{
+        width: 90%;
+        height: auto;
+        margin: 0% 8%;
+        padding-bottom: 14%;
+    }
+    .textocaja2{
+        padding-bottom: 70%;
+    }
+    .buttoncopy{
+        top: 0%;
+    }
+    .muneco{
+        display: none;
+    }
+
+    .p1-caja2 , .p2-caja2 {
+        padding-top: 6%;
+    }
+}

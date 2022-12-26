@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta lang="es">
+        <link rel="icon" type="image" href="img/Vector.svg" />        
+        <title>Encriptador de texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+            
+        <div class="caja1">
+             <img class="logo-caja1" src="./img/Logo-1.png" alt="">
+            <textarea class="textocaja1" id="encryptext" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="alerta"> Solo letras minusculas y sin acento</div>
+            <div class="box-button-caja1">                
+                <img class="buttonencrypt" id="encrypt" src="./img/Button-encrypt.png" alt="Boton Encriptar Texto">
+                <img class="buttondesencrypt" id="desencrypt" src="./img/Button-desencrypt.png" alt="Boton Desencriptar Texto">
+            </div>
+            
+        </div>
+        <div class="caja2">
+            <div class="box1-caja2">
+                <div id="bntTxt2" class="button-textarea-box1-caja2">
+                    <textarea class="textocaja2" id="textocaja2" readonly></textarea>
+                    <img class="buttoncopy" id="copytext" src="./img/Button-cp.png" alt="Boton Copiar Texto">
+                </div>
+                <div id="imgp" class="info-img-caja2">
+                    <img class="muneco" src="./img/Muñeco.png" alt="Muñeco caja2">
+                    <div>
+                        <p class="p1-caja2">Ningun mensaje fue encontrado.</p>
+                        <p class="p2-caja2">Ingresa el texto que desees encriptar o desenciptar.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <p class="rodapie">Creado por: Carlos Gomez Cruz</p>
+    
+    </body>
+    <script src="script.js"></script>
+</html>
